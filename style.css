@@ -69,12 +69,7 @@ button {
 button:hover {
 	transform: scale(1.1);
 }
-/* button#equal {
-	height: 130px;
-} */
-
 /* light mode */
-
 .calculator button.btn-action {
 	background-color: rgb(62, 206, 254);
 }
@@ -84,7 +79,6 @@ button:hover {
 .calculator button.btn-operator {
 	background-color: #3d77ff;
 }
-
 /* dark mode */
 .calculator.dark {
 	background-color: #071115;
@@ -93,14 +87,12 @@ button:hover {
 	color: #fff;
 	background: orange;
 }
-.calculator.dark .display-screen {
+.calculator.dark .display-screen,
+button {
 	color: #f8fafb;
 }
 .calculator.dark .buttons {
 	background-color: #1c1c1c;
-}
-.calculator.dark button {
-	color: #fff;
 }
 .calculator.dark button.btn-action {
 	background-color: orange;
